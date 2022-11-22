@@ -1,0 +1,19 @@
+project:
+   type: website 
+
+website: 
+  title: "Projet volant"
+  navbar: 
+    left: 
+      - href: index.qmd
+        text: Accueil
+      - index.qmd 
+      #- href: nested/nested_file.qmd
+      #  text: "fichier nested"
+
+format: 
+  html:
+    theme: cosmo
+    toc: false
+
+
