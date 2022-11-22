@@ -8,8 +8,8 @@ website:
       - href: index.qmd
         text: Accueil
       - index.qmd 
-      #- href: nested/nested_file.qmd
-      #  text: "fichier nested"
+      - href: nested/nested_file.qmd
+        text: "fichier nested"
 
 format: 
   html:
